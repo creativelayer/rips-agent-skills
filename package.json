@@ -1,0 +1,13 @@
+{
+  "name": "rips-agent-skills",
+  "version": "1.0.0",
+  "description": "Shared skills and scripts for AI agents on Base",
+  "type": "module",
+  "scripts": {},
+  "dependencies": {
+    "@privy-io/node": "^0.8.0",
+    "viem": "^2.45.0"
+  },
+  "author": "Clawn 🤡",
+  "license": "MIT"
+}
