@@ -10,6 +10,7 @@ Shared skills and scripts for AI agents operating on Base and other EVM chains.
 | [uniswap-v3](./skills/uniswap-v3/) | Token swaps via Uniswap V3 SwapRouter02 |
 | [erc20](./skills/erc20/) | ERC20 token transfers and approvals |
 | [weth](./skills/weth/) | WETH wrap/unwrap operations |
+| [bankr-trading](./skills/bankr-trading/) | Use Bankr as a trading intermediary for V4 pools and exotic swaps |
 
 ## Prerequisites
 
