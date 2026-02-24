@@ -32,7 +32,25 @@ Create `secrets/twitter.json` with this structure:
 - **OAuth 1.0a** (consumerKey + consumerSecret + oauth1.*) — required for posting, liking, retweeting, following
 - **Bearer token** — optional, for read-only app-level access (search, read timelines)
 
-To get these: create an app at https://developer.x.com, enable OAuth 1.0a with read+write, generate access tokens.
+To get these: create an app at https://developer.x.com, enable OAuth 1.0a with read+write. Then use the PIN-based auth flow below to generate access tokens.
+
+### 3. Generate access tokens via PIN auth
+
+The app owner (a human) needs to authorize the agent's app once. Run:
+
+```bash
+node skills/twitter/scripts/auth-pin.mjs
+```
+
+This will:
+1. Print a URL — give it to your human
+2. They log into X, authorize the app, and get a **PIN code**
+3. They give you the PIN
+4. The script exchanges it for access tokens and saves them to `secrets/twitter.json`
+
+This only needs to happen once. The tokens persist until revoked.
+
+**Important:** The X app can be owned by a different account than the one being authorized. The human visits the link logged into the account they want the agent to post as, and the PIN grants that account's access tokens to the agent's app.
 
 ## Usage
 
