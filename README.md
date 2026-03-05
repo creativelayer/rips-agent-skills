@@ -13,6 +13,8 @@ Shared skills and scripts for AI agents operating on Base and other EVM chains.
 | [bankr-trading](./skills/bankr-trading/) | Use Bankr as a trading intermediary for V4 pools and exotic swaps |
 | [farcaster](./skills/farcaster/) | Post casts, read feeds, and engage on Farcaster via Neynar API |
 | [rips-staking](./skills/rips-staking/) | Stake RIPS tokens on Base and claim USDC rewards |
+| [scheduled-payment](./skills/scheduled-payment/) | Config-driven recurring payments with auto-swap and idempotency |
+| [swap-with-retry](./skills/swap-with-retry/) | Robust Uniswap V3 swaps with tiered slippage retry and quote-first safety |
 
 ## Prerequisites
 
