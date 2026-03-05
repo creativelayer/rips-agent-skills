@@ -11,7 +11,7 @@ Shared skills and scripts for AI agents operating on Base and other EVM chains.
 | [erc20](./skills/erc20/) | ERC20 token transfers and approvals |
 | [weth](./skills/weth/) | WETH wrap/unwrap operations |
 | [bankr-trading](./skills/bankr-trading/) | Use Bankr as a trading intermediary for V4 pools and exotic swaps |
-| [farcaster](./skills/farcaster/) | Post casts, read feeds, and engage on Farcaster via Neynar API |
+| [farcaster](./skills/farcaster/) | Complete Farcaster operations: registration, hub-direct posting, engagement, profile management |
 | [rips-staking](./skills/rips-staking/) | Stake RIPS tokens on Base and claim USDC rewards |
 | [rips-consignment](./skills/rips-consignment/) | Check and withdraw consignment earnings from Rips platform with Bearer auth |
 | [clanker-v4-fees](./skills/clanker-v4-fees/) | Claim creator fees from Clanker V4 tokens with decimal safety |
