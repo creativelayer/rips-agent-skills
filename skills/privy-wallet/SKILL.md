@@ -58,6 +58,10 @@ const privy = new PrivyClient({
   appSecret: creds.appSecret 
 });
 
+// NOTE: Use object constructor, NOT positional args:
+// new PrivyClient(appId, appSecret) - FAILS SILENTLY
+// new PrivyClient({ appId, appSecret }) - CORRECT
+
 // Create viem account
 const account = createViemAccount(privy, {
   walletId: creds.walletId,

@@ -8,7 +8,7 @@ Stake RIPS tokens on Base and claim USDC rewards from the FeePool.
 |----------|---------|-------|
 | RIPS Token | `0xc1aDDAe61Bc74a14971BFA48A0B7141AdeD4fB07` | 18 decimals |
 | Staker V2 | `0xB6d7B6F1c4Ad64d75fc8c63e56188b6e3eF0c004` | Staking contract |
-| FeePool | `0xb0D256824ACd2EE1cbC03e97C47A7B5fec9Fe5f3` | Rewards distribution |
+| FeePool (Rewards) | `0xb0D256824ACd2EE1cbC03e97C47A7B5fec9Fe5f3` | Rewards distribution |
 | USDC | `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` | 6 decimals, reward token |
 
 ## Flow
